@@ -35,3 +35,7 @@ General info on Drupal
 
 - When to choose Drupal:
   - Choose Drupal if you need a highly configurable content model, complex permissions, strong multilingual support, or enterprise-level extensibility.
+
+////////////////////////////
+commit -2
+///////////////////////////
