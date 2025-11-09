@@ -1,0 +1,37 @@
+General info on Drupal
+
+- What it is:
+  Drupal is an open-source content management framework (CMS) written in PHP. It provides a flexible platform for building websites, web applications, and complex content-driven systems.
+
+- Core concepts:
+  - Content types & nodes: structured content defined by fields.
+  - Entities & fields: extensible data model used for users, taxonomy terms, files, etc.
+  - Taxonomy: tagging and classification system.
+  - Blocks & regions: layout pieces placed in theme regions.
+  - Views: powerful query and display builder for lists, tables, pages, REST outputs.
+  - Configuration management: declarative config export/import (config sync).
+  - Theming: Twig templating for markup and templates.
+  - Access control: roles and permissions framework.
+
+- Architecture & ecosystem:
+  - Modular: functionality added via contributed modules or custom modules.
+  - Themes control presentation; base themes and sub-themes common.
+  - Composer-first project structure (Drupal 8+).
+  - Drush and Drupal Console for CLI tasks and automation.
+  - Strong caching layers (render cache, page cache, dynamic page cache) and performance tools.
+
+- Use cases:
+  - Content-rich sites, intranets, community sites, government and enterprise platforms, headless CMS via JSON:API.
+
+- Security & best practices:
+  - Keep core and modules up to date.
+  - Use HTTPS, proper file permissions, and secure hosting.
+  - Use configuration management and automated deployments.
+  - Audit contributed modules for maintenance and security history.
+
+- Getting started:
+  - Recommended workflow: Composer to create projects, use Drush for CLI tasks, export/import config for environments.
+  - Official resources: documentation and module listings on drupal.org; API docs on api.drupal.org.
+
+- When to choose Drupal:
+  - Choose Drupal if you need a highly configurable content model, complex permissions, strong multilingual support, or enterprise-level extensibility.
